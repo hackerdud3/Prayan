@@ -3,15 +3,17 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     }
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-, "components/Login.jsx"  ]
+    "expo-env.d.ts",
+    "components/Login.jsx",
+    "app/auth/sign-up/index.js",
+    "app/auth/sign-in/index.js",
+    "configs/FirebaseConfig.js"
+  ]
 }
