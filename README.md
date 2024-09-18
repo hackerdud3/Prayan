@@ -67,7 +67,7 @@ Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) fi
 
 ## Contact
 
-For any questions or inquiries, please contact [your.email@example.com](mailto:nandhikantivinayk@gmail.com).
+For any questions or inquiries, please contact [nandhikantivinayk@gmail.com](mailto:nandhikantivinayk@gmail.com).
 
 ---
 
