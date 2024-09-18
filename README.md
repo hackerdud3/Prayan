@@ -1,50 +1,74 @@
-# Welcome to your Expo app 👋
+# Prayan - AI Travel Planner App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+![React Native](https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Expo](https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white)
+![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
+![Google Cloud Platform](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
+![Google Gemini](https://img.shields.io/badge/Google_Gemini-34A853?style=for-the-badge&logo=google&logoColor=white)
 
-## Get started
+Prayan is an AI-powered travel planner app developed using React Native and Expo. It leverages Firebase Firestore, Google Gemini, and Google Cloud Platform to provide users with personalized travel itineraries, flight details, and hotel recommendations based on their preferences. The app integrates Google Places API and Maps API to offer comprehensive location-based search and recommendations, ensuring detailed trip planning tailored to the user's selected location, budget, and dates.
 
-1. Install dependencies
+## Features
 
-   ```bash
-   npm install
-   ```
+- **Personalized Itineraries:** Generate custom travel plans including daily activities, hotel recommendations, and flight details.
+- **Location-Based Search:** Utilize the Google Places API to find and recommend locations based on user preferences.
+- **Detailed Trip Planning:** Access a wide range of trip details, including best flight options and accommodation suggestions with ratings and prices.
+- **Enhanced User Experience:** Designed to offer seamless trip planning and booking to enhance the overall travel experience.
 
-2. Start the app
+## Tech Stack
 
-   ```bash
-    npx expo start
-   ```
+- **React Native:** For building cross-platform mobile applications.
+- **Expo:** For easy development, building, and deploying of the app.
+- **Firebase Firestore:** For real-time data storage and synchronization.
+- **Google Gemini API:** For AI-powered recommendations and itinerary generation.
+- **Google Places API & Maps API:** For location-based search and trip planning.
+- **Google Cloud Platform (GCP):** For cloud infrastructure and services.
 
-In the output, you'll find options to open the app in a
+## Installation
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+1. Clone the repository:
+    ```bash
+    git clone https://github.com/hackerdud3/Prayan.git
+    cd prayan
+    ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+2. Install dependencies:
+    ```bash
+    npm install
+    ```
 
-## Get a fresh project
+3. Install Expo CLI (if not already installed):
+    ```bash
+    npm install -g expo-cli
+    ```
 
-When you're ready, run:
+4. Start the app:
+    ```bash
+    expo start
+    ```
 
-```bash
-npm run reset-project
-```
+5. Scan the QR code with the Expo Go app on your Android or iOS device to run the app.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## Usage
 
-## Learn more
+- **Create a Trip:** Enter your travel details including location, budget, and dates.
+- **Get Recommendations:** View personalized itineraries, including flight and hotel recommendations.
+- **Explore Locations:** Use the location-based search to explore and add locations to your trip plan.
+- **Save and Share:** Save your trip plans and share them with others.
 
-To learn more about developing your project with Expo, look at the following resources:
+## License
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## Join the community
+## Contributing
 
-Join our community of developers creating universal apps.
+Contributions are welcome! Please read the [CONTRIBUTING.md](CONTRIBUTING.md) file for details on the code of conduct, and the process for submitting pull requests.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Contact
+
+For any questions or inquiries, please contact [your.email@example.com](mailto:nandhikantivinayk@gmail.com).
+
+---
+
+**Prayan** - Making travel planning seamless and personalized.
